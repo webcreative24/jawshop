@@ -381,6 +381,7 @@ return [
         'PayPal_BraintreeGiftCardAccount' => 1,
         'PayPal_BraintreeGiftWrapping' => 1,
         'PayPal_BraintreeGraphQl' => 1,
+        'Smartex_PageBuilderRequireJsFix' => 1,
         'Swissup_Ajaxpro' => 1,
         'Swissup_Core' => 1,
         'Swissup_Amp' => 1,

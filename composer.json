@@ -45,6 +45,7 @@
         "magento/sample-data-media": "100.4.*",
         "magestyapps/module-web-images": "^1.1",
         "markshust/magento2-module-pagebuildersourcecode": "^1.0",
+        "smartex/module-page-builder-require-js-fix": "^1.0",
         "swissup/argento-m2": "^1.46",
         "swissup/module-marketplace": "^1.10"
     },

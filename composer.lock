@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4182e383d0f5e256fa475598f702def",
+    "content-hash": "f1c061fcc21d098e011c41852893816f",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -22410,6 +22410,44 @@
                 "source": "https://github.com/Seldaek/signal-handler/tree/2.0.2"
             },
             "time": "2023-09-03T09:24:00+00:00"
+        },
+        {
+            "name": "smartex/module-page-builder-require-js-fix",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smartexcan/magento2-page-builder-require-js-fix.git",
+                "reference": "801dfa4b974084d4f74f4256f98e4698f0ba3214"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smartexcan/magento2-page-builder-require-js-fix/zipball/801dfa4b974084d4f74f4256f98e4698f0ba3214",
+                "reference": "801dfa4b974084d4f74f4256f98e4698f0ba3214",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "^103.0.0",
+                "magento/module-require-js": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Smartex\\PageBuilderRequireJsFix\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Fix for requirejs-config in page builder stage render page",
+            "support": {
+                "issues": "https://github.com/smartexcan/magento2-page-builder-require-js-fix/issues",
+                "source": "https://github.com/smartexcan/magento2-page-builder-require-js-fix/tree/1.0.0"
+            },
+            "time": "2024-10-29T21:22:10+00:00"
         },
         {
             "name": "spatie/image-optimizer",
