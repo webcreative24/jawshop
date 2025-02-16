@@ -18,6 +18,7 @@
     },
     "version": "2.4.7-p3",
     "require": {
+        "jajuma/module-syntax-highlighter": "^1.0",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "^2.0.4",
         "magento/module-bundle-sample-data": "100.4.*",
@@ -43,6 +44,7 @@
         "magento/quality-patches": "^1.1",
         "magento/sample-data-media": "100.4.*",
         "magestyapps/module-web-images": "^1.1",
+        "markshust/magento2-module-pagebuildersourcecode": "^1.0",
         "swissup/argento-m2": "^1.46",
         "swissup/module-marketplace": "^1.10"
     },

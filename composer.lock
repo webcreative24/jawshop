@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27ab68a72be0bbf73d8b067596e8807a",
+    "content-hash": "c4182e383d0f5e256fa475598f702def",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -2310,6 +2310,46 @@
                 "source": "https://github.com/Intervention/httpauth/tree/3.0.3"
             },
             "time": "2021-01-22T15:08:35+00:00"
+        },
+        {
+            "name": "jajuma/module-syntax-highlighter",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JaJuMa-GmbH/syntax-highlighter-4-page-builder.git",
+                "reference": "3a33d9dd8726561ae2b4e03ce3ff5d9cef239d24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JaJuMa-GmbH/syntax-highlighter-4-page-builder/zipball/3a33d9dd8726561ae2b4e03ce3ff5d9cef239d24",
+                "reference": "3a33d9dd8726561ae2b4e03ce3ff5d9cef239d24",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Jajuma\\SyntaxHighlighter\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JaJuMa",
+                    "email": "info@jajuma.de"
+                }
+            ],
+            "description": "JaJuMa Syntax Highlighter 4 Page Builder for Magento 2",
+            "support": {
+                "issues": "https://github.com/JaJuMa-GmbH/syntax-highlighter-4-page-builder/issues",
+                "source": "https://github.com/JaJuMa-GmbH/syntax-highlighter-4-page-builder/tree/1.0.4"
+            },
+            "time": "2025-01-13T05:55:52+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -19620,6 +19660,51 @@
             "time": "2021-03-10T17:56:57+00:00"
         },
         {
+            "name": "markshust/magento2-module-pagebuildersourcecode",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markshust/magento2-module-pagebuildersourcecode.git",
+                "reference": "03bd317d86e80ba5f1f52d32ae4d35483b927a83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markshust/magento2-module-pagebuildersourcecode/zipball/03bd317d86e80ba5f1f52d32ae4d35483b927a83",
+                "reference": "03bd317d86e80ba5f1f52d32ae4d35483b927a83",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": ">=100",
+                "magento/module-page-builder": ">=1",
+                "php": ">=7.1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MarkShust\\PageBuilderSourceCode\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The Page Builder Source Code module adds a Source Code button to the toolbar of the Page Builder WYSIWYG editor.",
+            "support": {
+                "issues": "https://github.com/markshust/magento2-module-pagebuildersourcecode/issues",
+                "source": "https://github.com/markshust/magento2-module-pagebuildersourcecode/tree/1.0.5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/markshust",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-03-07T00:51:42+00:00"
+        },
+        {
             "name": "mobiledetect/mobiledetectlib",
             "version": "4.8.09",
             "source": {
@@ -33972,10 +34057,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
