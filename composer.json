@@ -47,7 +47,8 @@
         "markshust/magento2-module-pagebuildersourcecode": "^1.0",
         "smartex/module-page-builder-require-js-fix": "^1.0",
         "swissup/argento-m2": "^1.46",
-        "swissup/module-marketplace": "^1.10"
+        "swissup/module-marketplace": "^1.10",
+        "wouyang/module-disable-csp": "^1.0"
     },
     "autoload": {
         "exclude-from-classmap": [

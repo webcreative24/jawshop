@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1c061fcc21d098e011c41852893816f",
+    "content-hash": "e8b4a1ae49514c15617200e84d81ef31",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -29236,6 +29236,44 @@
                 "source": "https://github.com/wikimedia/less.php/tree/v3.2.1"
             },
             "time": "2023-02-03T06:43:41+00:00"
+        },
+        {
+            "name": "wouyang/module-disable-csp",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/weiweiouyang/magento2-module-disable-csp.git",
+                "reference": "224da994711075562b1bccdb8858d041afbf87dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/weiweiouyang/magento2-module-disable-csp/zipball/224da994711075562b1bccdb8858d041afbf87dc",
+                "reference": "224da994711075562b1bccdb8858d041afbf87dc",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-csp": "100.4.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Wouyang\\DisableCsp\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Module to disable Csp functionality for those who does not need it.",
+            "support": {
+                "issues": "https://github.com/weiweiouyang/magento2-module-disable-csp/issues",
+                "source": "https://github.com/weiweiouyang/magento2-module-disable-csp/tree/v1.0.0"
+            },
+            "time": "2024-06-19T16:46:58+00:00"
         }
     ],
     "packages-dev": [

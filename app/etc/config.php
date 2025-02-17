@@ -448,6 +448,7 @@ return [
         'Swissup_ThemeEditorArgentoMall' => 1,
         'Swissup_ThemeEditorArgentoMarketplace' => 1,
         'Swissup_ThemeEditorArgentoPure2' => 1,
-        'Swissup_ThemeEditorArgentoStripes' => 1
+        'Swissup_ThemeEditorArgentoStripes' => 1,
+        'Wouyang_DisableCsp' => 1
     ]
 ];
