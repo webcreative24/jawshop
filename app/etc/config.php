@@ -373,6 +373,7 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'Magento_WishlistSampleData' => 1,
+        'Firebear_ImportExport' => 1,
         'Jajuma_SyntaxHighlighter' => 1,
         'MagestyApps_WebImages' => 1,
         'MarkShust_PageBuilderSourceCode' => 1,
