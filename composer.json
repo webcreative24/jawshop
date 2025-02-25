@@ -18,7 +18,10 @@
     },
     "version": "2.4.7-p3",
     "require": {
+        "bcncommerce/json-stream": "^0.4.1",
+        "google/apiclient": "^2.0",
         "jajuma/module-syntax-highlighter": "^1.0",
+        "league/oauth2-client": "^2.4",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "^2.0.4",
         "magento/module-bundle-sample-data": "100.4.*",
@@ -45,9 +48,14 @@
         "magento/sample-data-media": "100.4.*",
         "magestyapps/module-web-images": "^1.1",
         "markshust/magento2-module-pagebuildersourcecode": "^1.0",
+        "microsoft/microsoft-graph": "^1.25",
+        "openspout/openspout": "^3.7.4 || ^4.2",
+        "salsify/json-streaming-parser": "~8.0",
         "smartex/module-page-builder-require-js-fix": "^1.0",
         "swissup/argento-m2": "^1.46",
         "swissup/module-marketplace": "^1.10",
+        "tcdent/php-restclient": "^0.1.7",
+        "tmwk/client-prestashop-api": "^1.0",
         "wouyang/module-disable-csp": "^1.0"
     },
     "autoload": {
