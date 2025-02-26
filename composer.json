@@ -52,6 +52,7 @@
         "openspout/openspout": "^3.7.4 || ^4.2",
         "salsify/json-streaming-parser": "~8.0",
         "smartex/module-page-builder-require-js-fix": "^1.0",
+        "stripe/stripe-payments": "^4.3",
         "swissup/argento-m2": "^1.46",
         "swissup/module-marketplace": "^1.10",
         "tcdent/php-restclient": "^0.1.7",

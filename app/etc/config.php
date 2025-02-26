@@ -383,6 +383,8 @@ return [
         'PayPal_BraintreeGiftWrapping' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Smartex_PageBuilderRequireJsFix' => 1,
+        'StripeIntegration_Tax' => 1,
+        'StripeIntegration_Payments' => 1,
         'Swissup_Ajaxpro' => 1,
         'Swissup_Core' => 1,
         'Swissup_Amp' => 1,
